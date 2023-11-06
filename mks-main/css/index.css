@@ -1,0 +1,119 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    padding: 15px;
+    text-align: center;
+}
+.box1{
+    padding: 20px 0 0 0;
+    border: solid 2px #000;
+    text-align: center;
+}
+.div{
+    padding: 15px;
+    text-align: center;
+}
+
+.div label{
+    color: green;
+}
+
+.div input{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px;
+    border-radius: 7px;
+}
+
+.div1{
+    padding: 15px;
+    text-align: center;
+}
+
+.div1 label{
+    color: green;
+}
+
+.div1 input{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px;
+    border-radius: 7px;
+}
+
+.div1 select{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px 0 0;
+    border-radius: 7px;
+}
+
+.texto{
+    padding: 15px 0 0 0; 
+}
+
+.div2{
+    padding: 15px;
+    text-align: center;
+}
+
+.div2 label{
+    color: green;
+}
+
+.div2 input{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px;
+    border-radius: 7px;
+}
+
+.div3{
+    padding: 15px;
+    text-align: center;
+}
+
+.div3 label{
+    color: green;
+}
+
+.div3 input{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px;
+    border-radius: 7px;
+}
+
+.div4{
+    padding: 15px;
+    text-align: center;
+}
+
+.div4 label{
+    color: green;
+}
+
+.div4 input{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 16px;
+    border-radius: 7px;
+}
+
+
+
+
+
+.btn{
+    text-align: center;
+    
+}
+
+.btn button{
+    background-color: aquamarine;
+    border-radius: 7px;
+    padding: 5px 5px 5px 5px;
+}
+
+.btn button:hover{
+    background-color: black;
+    color: aqua;
+    opacity: 70%;
+}

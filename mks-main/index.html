@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro de Estagio</h1>
+    </header>
+    <form action="https://api.sheetmonkey.io/form/3p7pqHajkzDqBLoZXZN62d" method="post">
+        <div class="box1">
+            <h1>Dados do Aluno</h1>
+        <div class="div">
+        <label for="nome">
+            Nome: 
+            <input type="text" name="nome" id="nome" size="40" placeholder="Nome completo" required>
+        </label>
+
+        <label for="email">
+            email:
+            <input type="text" name="email" id="email" size="40" placeholder="Email" required>
+        </label>
+    </div>
+
+    <div class="div1">
+        <label for="matricula">
+            Matricula: 
+            <input type="text" name="mat" id="matricula" placeholder="Matricula" required>
+        </label>
+
+        <label for="turno">
+            Turno: 
+            <select name="turno" id="turno">
+                <option value="matutino">Matutino</option>
+                <option value="vespertino">Vespertino</option>
+            </select>
+        </label>
+
+        <label for="curso">
+            Curso:
+            <select name="curso" id="curso">
+                <option value="adm">adm</option>
+                <option value="agro">agro</option>
+                <option value="info">info</option>
+                <option value="rh">rh</option>
+            </select>
+        </label>
+
+        <label for="cpf">
+            Cpf: 
+            <input type="text" name="cpf" id="cpf" placeholder="Cpf">
+        </label>
+
+        <div class="texto">
+            <h1>Endereço</h1>
+        </div>
+    </div>
+
+
+            <div class="div2">
+
+                <label for="cep">
+                    Cep:
+                    <input type="text" name="cep" id="cep" placeholder="Cep">
+                </label>
+
+                <label for="endereço">
+                    Endereço: 
+                    <input type="text" name="rua" id="rua" size="40" placeholder="Rua">
+                </label>
+
+                <label for="bairro">
+                    Bairro
+                    <input type="text" name="bairro" id="bairro" size="25" placeholder="Bairro  ">
+                </label>
+            </div>
+
+            <div class="div3">
+                <label for="cidade">
+                    Cidade:
+                    <input type="text" name="cep" id="cdd" placeholder="Cidade">
+                </label>
+
+                <label for="estado">
+                    Estado:
+                    <input type="text" name="cep" id="estado" placeholder="Estado">
+                </label>
+            </div>
+
+        <div class="empre">
+            <h1>Dados do Remetente</h1>
+        </div>
+
+        <div class="div4">
+            <label for="cpnj">
+                Cnpj:
+                <input type="text" name="cpnj" id="cpnj">
+            </label>
+
+            <label for="razão-social">
+                Razõa Social:
+                <input type="text" name="razão" id="rs">
+            </label>
+
+            <label for="nome">
+                Nome fantasia:
+                <input type="text" name="nome" id="nf">
+            </label>
+
+            
+        </div>
+    <div class="btn">
+        <button type="submit" id="btn">Confirmar</button>
+    </div>
+
+</div>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>

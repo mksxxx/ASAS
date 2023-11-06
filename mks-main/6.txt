@@ -1,0 +1,4 @@
+  <label for="email">
+            email:
+            <input type="text" name="email" id="email" size="40" placeholder="Email" required>
+        </label>
